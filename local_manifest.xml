@@ -8,4 +8,5 @@
     <!-- CyanogenMod dependencies -->
     <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" revision="cm-13.0" />
     <project path="external/sony/boringssl-compat" name="CyanogenMod/android_external_sony_boringssl-compat" revision="cm-13.0" />
+    <project path="hardware/sony/DASH" name="CyanogenMod/android_hardware_sony_DASH" revision="cm-13.0" />
 </manifest>
