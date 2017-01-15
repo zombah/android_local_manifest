@@ -8,4 +8,7 @@
     <!-- CyanogenMod dependencies -->
     <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" revision="cm-14.1" />
     <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" revision="cm-14.1" />
+
+    <!-- CyanogenMod common Qcom binaries -->
+    <project path="vendor/qcom/binaries" name="TheMuppets/proprietary_vendor_qcom_binaries" revision="cm-14.1" />
 </manifest>
