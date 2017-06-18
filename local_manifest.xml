@@ -8,4 +8,10 @@
     <!-- CyanogenMod dependencies -->
     <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" revision="cm-12.1" />
     <project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" revision="cm-12.1" />
+
+    <!-- CyanogenMod local forks -->
+    <remove-project name="CyanogenMod/android_frameworks_base" />
+    <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
+    <project path="frameworks/base" name="cm-nokia-x2/android_frameworks_base" revision="cm-12.1-x2"/>
+    <project path="frameworks/opt/telephony" name="cm-nokia-x2/android_frameworks_opt_telephony" revision="cm-12.1-x2"/>
 </manifest>
